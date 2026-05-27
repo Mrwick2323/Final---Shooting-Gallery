@@ -50,7 +50,7 @@ class blocks():
             window.tracer(1)
             if self.blocks[0][0].ycor()<=-170:
                 self.idiot()
-        window.ontimer(self.upd,100)
+        window.ontimer(self.upd,2000)
     def tupd(self):
         window.tracer(3)
         low = self.blocks[0][0].ycor()
